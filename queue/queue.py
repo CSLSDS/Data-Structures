@@ -38,10 +38,12 @@ Stretch: What if you could only use instances of your Stack class to implement t
 #             self.size -= 1
 #            return self.storage.pop(0)
 
-
+import sys, os
+sys.path.append(os.path.join(os.path.dirname(sys.path[0]), 'singly_linked_list'))  # what
+from singly_linked_list import *
 
 # LinkedList() implementation
-from singly_linked_list import Node, LinkedList
+#from singly_linked_list import Node, LinkedList
 
 class Queue:
     # first in - first out 
